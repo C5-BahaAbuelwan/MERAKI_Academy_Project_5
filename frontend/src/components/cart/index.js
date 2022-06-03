@@ -165,7 +165,19 @@ const Cart = () => {
                     </div>
                   </div>
                 </div>
-                <button
+               
+
+                <h6 className="sub_total">{}</h6>
+              </div>
+            );
+                        
+          })
+        )
+        
+      ) : (
+        <h1>Please Login First</h1>
+      )}
+       <button
                   className="empty_cart"
                   onClick={(e) => {
                     emptyCart();
@@ -173,15 +185,6 @@ const Cart = () => {
                 >
                   Empty Cart
                 </button>
-
-                <h6 className="sub_total">{}</h6>
-              </div>
-            );
-          })
-        )
-      ) : (
-        <h1>Please Login First</h1>
-      )}
     </div>
   );
 };
