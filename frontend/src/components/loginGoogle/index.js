@@ -6,16 +6,11 @@ import { loginAction } from "../../redux/reducers/auth";
 
 import axios from "axios";
 const LogGoogle = () => {
+  
   const navigate = useNavigate();
 
   //!redux===============
   const dispatch = useDispatch();
-  const state = useSelector((state) => {
-    return {
-      token: state.auth.token,
-      isLoggedIn: state.auth.isLoggedIn,
-    };
-  });
   //!redux===============
   const responseGoogle = (response) => {
     console.log(response.Ru);

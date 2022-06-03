@@ -16,5 +16,8 @@
     "url": "https://github.com/c5-HedayaAlmomani/MERAKI_Academy_Project_5/issues"
   },
   "homepage": "https://github.com/c5-HedayaAlmomani/MERAKI_Academy_Project_5#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "react-google-login": "^5.2.2"
+  }
 }

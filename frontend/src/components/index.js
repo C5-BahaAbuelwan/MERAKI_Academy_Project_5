@@ -37,6 +37,7 @@ const Dashboard = () => {
       )}
 
       <Link to="product">All Product</Link>
+      
     </div>
   );
 };

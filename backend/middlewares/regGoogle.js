@@ -14,7 +14,7 @@ const regGoogle = (req, res, next) => {
       let password = Math.random() + "";
 
       bcrypt.hash(password, 10).then((result) => {
-        let role_id = 2;
+        let role_id = 1;
 
         const query = `INSERT INTO users (firstName,lastName,email,password,role_id) VALUES (?,?,?,?,?)`;
         const data = [firstName, lastName, email, result, role_id];
