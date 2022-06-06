@@ -44,29 +44,7 @@ const Login = () => {
   return (
     
     <div className="login">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<div class="searchable">
-    <input type="text" placeholder="search countries" onkeyup="filterFunction(this,event)"/>
-    <ul>
-        <li>Algeria</li>
-        <li>Bulgaria</li>
-        <li>Canada</li>
-        <li>Egypt</li>
-        <li>Fiji</li>
-        <li>India</li>
-        <li>Japan</li>
-        <li>Iran (Islamic Republic of)</li>
-        <li>Lao People's Democratic Republic</li>
-        <li>Micronesia (Federated States of)</li>
-        <li>Nicaragua</li>
-        <li>Senegal</li>
-        <li>Tajikistan</li>
-        <li>Yemen</li>
-    </ul>
-</div>
-
-
-
+    
       <input
         className="input"
         placeholder="Enter Your email"

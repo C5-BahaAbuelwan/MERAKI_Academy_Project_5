@@ -231,3 +231,4 @@ const OneProduct = () => {
 };
 
 export default OneProduct;
+
